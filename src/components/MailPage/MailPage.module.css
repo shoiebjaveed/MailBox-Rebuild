@@ -1,0 +1,79 @@
+.container {
+    position: fixed;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 560px;
+    width: 68rem;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: scroll;
+}
+
+.content li {
+    list-style: none;
+}
+
+.content header {
+    font-size: 1.5rem;
+    margin: 10px;
+    justify-content: center;
+}
+
+.content header span {
+    margin: 5px;
+    padding: 7px;
+}
+
+.content header span:hover {
+    background-color: #a9a9a9;
+}
+
+.profile img {
+    margin: 2px;
+    border-radius: 50%;
+    font-size: small;
+    margin-top: 9px;   
+}
+
+.profile {
+    justify-content: space-between;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.profile h5 {
+    margin-top: -4%;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.profile h6 {
+    margin-top: -4.5%;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.content h3 {
+    padding: 0.15rem 1.5rem;
+    margin-top: -2%;
+    border-bottom: 1px solid black;
+
+}
+
+.message {
+    padding: 0.15rem 1.5rem;
+}
+
+.content p {
+    font-family: monospace;
+    margin: 1px;
+    font-size: medium;
+}

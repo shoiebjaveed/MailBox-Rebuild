@@ -1,0 +1,23 @@
+.container {
+    position: fixed;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 560px;
+    width: 68rem;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: scroll;
+}
+
+.container ul {
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: calc(33%-4px);
+    height: 100px;
+}
